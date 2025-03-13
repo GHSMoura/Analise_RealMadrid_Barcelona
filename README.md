@@ -96,10 +96,4 @@ Com base em análise de dados e técnicas estatísticas, o projeto visa fornecer
    - **Barcelona**: Probabilidade de falência de X%.
    - **Real Madrid**: Probabilidade de falência de Y%.
 
----
 
-## 📝 Como Utilizar Este Projeto
-
-1. Clone o repositório para sua máquina local:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
