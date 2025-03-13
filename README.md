@@ -1,128 +1,105 @@
-Análise Comparativa Financeira: Real Madrid x Barcelona 
+# ⚽️ Análise Comparativa Financeira: Real Madrid x Barcelona
 
-Este repositório apresenta uma análise detalhada e visual das métricas financeiras de dois gigantes do futebol mundial: Real Madrid e Barcelona. A análise inclui comparações, projeções de receitas, indicadores de risco, e previsões de solvência com base no modelo Altman Z-Score.
+Bem-vindo ao repositório! Aqui você encontrará uma análise detalhada e visual das métricas financeiras de dois gigantes do futebol mundial: **Real Madrid** e **Barcelona**. Este projeto tem como objetivo explorar a saúde financeira dos clubes, identificando tendências, riscos e projeções de desempenho futuro.
 
- Descrição do Projeto
-O objetivo deste projeto é fornecer uma visão detalhada da saúde financeira e desempenho futuro dos clubes por meio de:
+---
 
-Comparação de métricas financeiras.
+## 📌 Descrição do Projeto
 
-Identificação de indicadores de risco e desempenho.
+Este projeto busca fornecer respostas para questões financeiras cruciais envolvendo os dois clubes, como:
 
-Projeções de receitas para os próximos anos.
+- Como as métricas financeiras se comparam entre Real Madrid e Barcelona?
+- Quais são os indicadores de risco mais relevantes para ambos os clubes?
+- Quais são as projeções de receita dos clubes para os próximos anos?
+- Como o modelo **Altman Z-Score** avalia a solvência dos clubes?  
+- Quais impactos as variações de dívidas podem ter nas métricas financeiras?
 
-Análise de sensibilidade das dívidas.
+Com base em análise de dados e técnicas estatísticas, o projeto visa fornecer insights detalhados e confiáveis.
 
-Previsões de solvência com base no modelo de Altman Z-Score.
+---
 
- Ferramentas e Tecnologias Utilizadas
-Python: Para manipulação de dados e visualizações.
+## 🛠️ Ferramentas e Tecnologias Utilizadas
 
-Bibliotecas:
+- **Python**: Para manipulação e análise de dados.
+- **Bibliotecas**:
+  - `Pandas`: Organização e análise de métricas financeiras.
+  - `Seaborn` e `Matplotlib`: Criação de gráficos comparativos e dinâmicos.
+  - `Scikit-learn`: Aplicação de modelo de previsão de solvência financeira.
+- **Modelagem**:
+  - **Altman Z-Score**: Previsão da saúde financeira dos clubes com base em variáveis-chave.
 
-Pandas: Organização e análise de dados.
+---
 
-Seaborn e Matplotlib: Criação de gráficos dinâmicos e comparativos.
+## 📂 Estrutura do Projeto
 
-Scikit-learn: Treinamento e previsão de solvência financeira.
+1. **Comparação Financeira: Real Madrid x Barcelona**
+   - Métricas analisadas:
+     - Receita Total (€)
+     - EBITDA (€)
+     - Dívida Líquida (€)
+     - Relação Wage-to-Revenue (%)
+     - Liquidez Corrente
+     - Patrimônio Líquido (€)
+     - Valor de Mercado do Elenco (€)
 
-Modelagem:
+2. **Indicadores de Risco**
+   - **Dívida/EBITDA**:
+     - Mede a capacidade dos clubes de pagar suas dívidas com base nos lucros.
+     - Limite de risco alto incluído como linha de referência.
+   - **Wage-to-Revenue Ratio**:
+     - Proporção dos gastos com salários em relação às receitas.
+     - Limite financeiro estabelecido pela La Liga: **70%**.
 
-Altman Z-Score aplicado para previsão da saúde financeira.
+3. **Projeção de Receitas (2023-2026)**
+   - Projeções baseadas em dados históricos e desempenho recente dos clubes.
 
-Estrutura do Projeto
-1. Comparação Financeira Real Madrid x Barcelona
-Métricas Analisadas:
+4. **Modelo de Altman Z-Score**
+   - Variáveis incluídas:
+     - **WC_TA**: Capital de Giro / Ativos Totais.
+     - **RE_TA**: Lucros Retidos / Ativos Totais.
+     - **EBIT_TA**: EBIT / Ativos Totais.
+     - **MVE_TL**: Valor de Mercado / Passivo Total.
+   - **Previsões**:
+     - Probabilidades de falência estimadas para os clubes em 2024.
 
-Receita Total (M€)
+5. **Análise de Sensibilidade das Dívidas**
+   - Simulações de variações na dívida líquida e seus impactos nas métricas financeiras principais.
 
-EBITDA (M€)
+---
 
-Dívida Líquida (M€)
+## 📊 Exemplos de Visualizações
 
-Relação Wage-to-Revenue (%)
+1. **Comparação Financeira: Real Madrid vs Barcelona**  
+   Barplot comparando métricas financeiras, incluindo receitas, EBITDA, dívidas e mais.
 
-Liquidez Corrente
+2. **Indicadores de Risco**
+   - Gráficos de barras ilustrando:
+     - Dívida/EBITDA com linhas de referência para risco.
+     - Wage-to-Revenue (%) com destaque para o limite financeiro permitido pela La Liga.
 
-Patrimônio Líquido (M€)
+3. **Projeção de Receitas (2023-2026)**
+   Gráfico de linha mostrando as projeções de receita para os próximos quatro anos.
 
-Valor de Mercado do Elenco (M€)
+4. **Gráfico de Radar Comparativo**
+   Comparação de métricas-chave entre os clubes, incluindo:
+   - Receita
+   - EBITDA
+   - Liquidez Corrente
+   - Patrimônio Líquido
+   - Valor de Mercado
 
-2. Indicadores de Risco
-Dívida/EBITDA:
+5. **Sensibilidade das Dívidas**
+   Gráficos de linha mostrando os impactos das variações de dívidas nas principais métricas financeiras.
 
-Mede a capacidade dos clubes em pagar suas dívidas com base nos lucros.
+6. **Altman Z-Score: Previsões**
+   Visualização das probabilidades de falência previstas para 2024:
+   - **Barcelona**: Probabilidade de falência de X%.
+   - **Real Madrid**: Probabilidade de falência de Y%.
 
-Limite de Risco Alto: Linha de referência para controle.
+---
 
-Wage-to-Revenue Ratio:
+## 📝 Como Utilizar Este Projeto
 
-Representa a proporção dos gastos com salários em relação à receita.
-
-Limite La Liga: 70% para controle financeiro.
-
-3. Projeção de Receitas (2023-2026)
-Projeções baseadas no desempenho recente dos clubes.
-
-4. Modelo de Altman Z-Score
-Variáveis incluídas:
-
-WC_TA: Capital de Giro / Ativos Totais.
-
-RE_TA: Lucros Retidos / Ativos Totais.
-
-EBIT_TA: EBIT / Ativos Totais.
-
-MVE_TL: Valor de Mercado / Passivo Total.
-
-Previsões:
-
-Probabilidade de falência estimada para ambos os clubes em 2024.
-
-5. Análise de Sensibilidade das Dívidas
-Simulação de variações na dívida líquida e impactos nas principais métricas financeiras.
-
-📊 Exemplos de Visualizações
-1. Comparação Financeira: Real Madrid vs Barcelona
-Barplot comparando métricas financeiras entre os dois clubes, destacando receitas, EBITDA, dívidas e mais.
-
-
-2. Indicadores de Risco
-Gráficos de barras ilustrando:
-
-Dívida/EBITDA com linha de referência para risco.
-
-Wage-to-Revenue (%) com destaque ao limite permitido pela La Liga.
-
-
-3. Projeção de Receitas (2023-2026)
-Gráfico de linha com projeções das receitas totais dos clubes para os próximos quatro anos.
-
-
-4. Análise Comparativa com Gráfico de Radar
-Gráfico radar destacando os pontos fortes e fracos em métricas como:
-
-Receita
-
-EBITDA
-
-Liquidez Corrente
-
-Patrimônio Líquido
-
-Valor de Mercado
-
-
-5. Sensibilidade das Dívidas
-Gráficos de linhas mostrando os impactos das variações de dívidas nas principais métricas financeiras para cada clube.
-
-Real Madrid:
-
-Barcelona:
-
-6. Altman Z-Score: Previsões
-Resultado das probabilidades de falência previstas para 2024:
-
-Barcelona: Probabilidade de falência de X%.
-
-Real Madrid: Probabilidade de falência de Y%
+1. Clone o repositório para sua máquina local:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
