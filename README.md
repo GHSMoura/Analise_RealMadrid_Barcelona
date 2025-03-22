@@ -1,6 +1,7 @@
 # ⚽️ Análise Comparativa Financeira: Real Madrid x Barcelona
 
-Bem-vindo ao repositório! Aqui você encontrará uma análise detalhada e visual das métricas financeiras de dois gigantes do futebol mundial: **Real Madrid** e **Barcelona**. Este projeto tem como objetivo explorar a saúde financeira dos clubes, identificando tendências, riscos e projeções de desempenho futuro.
+
+Aqui você encontrará uma análise detalhada e visual das métricas financeiras de dois gigantes do futebol mundial: **Real Madrid** e **Barcelona**. Este projeto tem como objetivo explorar a saúde financeira dos clubes, identificando tendências, riscos e projeções de desempenho futuro.
 
 ---
 
